@@ -6,3 +6,16 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 196ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 6636)
 
 
+Started GET "/?/api/greetings" for ::1 at 2022-05-30 11:23:08 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"/api/greetings"=>nil}
+  Rendering /Users/doracobian/.rvm/gems/ruby-2.7.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/doracobian/.rvm/gems/ruby-2.7.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 48.1ms | Allocations: 369)
+Completed 200 OK in 51ms (Views: 49.8ms | Allocations: 1140)
+
+
+Started GET "/api/greetings" for ::1 at 2022-05-30 11:23:59 -0700
+Processing by Api::GreetingsController#index as JSON
+Completed 200 OK in 57ms (Views: 0.2ms | Allocations: 213)
+
+
