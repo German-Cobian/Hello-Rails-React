@@ -19,3 +19,12 @@ Processing by Api::GreetingsController#index as JSON
 Completed 200 OK in 57ms (Views: 0.2ms | Allocations: 213)
 
 
+Started GET "/" for ::1 at 2022-05-30 11:34:14 -0700
+Processing by StaticController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+  Rendered static/index.html.erb within layouts/application (Duration: 54.2ms | Allocations: 1292)
+  Rendered layout layouts/application.html.erb (Duration: 3156.5ms | Allocations: 111967)
+Completed 200 OK in 3165ms (Views: 3163.9ms | Allocations: 112901)
+
+
