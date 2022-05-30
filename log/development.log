@@ -146,3 +146,26 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 232ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 3858)
 
 
+Started GET "/api/greetings" for ::1 at 2022-05-30 10:02:52 -0700
+Processing by Api::GreetingsController#index as JSON
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms | Allocations: 4221)
+
+
+  
+NoMethodError (undefined method `to' for {:greetings=>[{:name=>"something", :guid=>"0435"}]}:Hash):
+  
+app/controllers/api/greetings_controller.rb:8:in `index'
+Started GET "/api/greetings" for ::1 at 2022-05-30 10:03:11 -0700
+Processing by Api::GreetingsController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2010)
+
+
+  
+NoMethodError (undefined method `to' for {:greetings=>[{:name=>"something", :guid=>"0435"}]}:Hash):
+  
+app/controllers/api/greetings_controller.rb:8:in `index'
+Started GET "/api/greetings" for ::1 at 2022-05-30 10:03:54 -0700
+Processing by Api::GreetingsController#index as JSON
+Completed 200 OK in 207ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 198)
+
+
