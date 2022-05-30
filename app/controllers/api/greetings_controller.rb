@@ -1,10 +1,6 @@
 class Api::GreetingsController < ApplicationController
   def index
-    render json: { :things => [
-      {
-        :name => 'something',
-        :guid => '04564'
-      }
-    ]}.to_json
+    greeting = Greeting.all.order('random()').first
+    render json: greeting
   end
 end
