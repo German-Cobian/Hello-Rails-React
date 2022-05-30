@@ -28,3 +28,57 @@ Processing by StaticController#index as HTML
 Completed 200 OK in 3165ms (Views: 3163.9ms | Allocations: 112901)
 
 
+Started GET "/" for ::1 at 2022-05-30 11:58:30 -0700
+Started GET "/" for ::1 at 2022-05-30 11:58:30 -0700
+  [1m[35m (25.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+Processing by StaticController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+  Rendering static/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-05-30 12:02:20 -0700
+Started GET "/" for ::1 at 2022-05-30 12:02:20 -0700
+Started GET "/api/greetings" for ::1 at 2022-05-30 12:02:20 -0700
+  [1m[35m (633.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::GreetingsController#index as JSON
+Processing by StaticController#index as HTML
+Processing by StaticController#index as HTML
+Completed 200 OK in 560ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2572)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+  Rendering static/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-05-30 12:31:51 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+Started GET "/api/greetings" for ::1 at 2022-05-30 12:35:09 -0700
+  [1m[35m (25.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::GreetingsController#index as JSON
+Completed 200 OK in 804ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2455)
+
+
+Started GET "/" for ::1 at 2022-05-30 12:50:34 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+Started GET "/api/greetings" for ::1 at 2022-05-30 12:58:03 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::GreetingsController#index as JSON
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2452)
+
+
+Started GET "/" for ::1 at 2022-05-30 13:01:03 -0700
+Processing by StaticController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/index.html.erb within layouts/application
+  Rendered static/index.html.erb within layouts/application (Duration: 1446.1ms | Allocations: 1470)
+  Rendered layout layouts/application.html.erb (Duration: 11847.3ms | Allocations: 47506)
+Completed 200 OK in 12276ms (Views: 12146.7ms | Allocations: 50065)
+
+
